@@ -1,0 +1,99 @@
+/* ОБЩИЕ СТИЛИ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #552583;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white !important;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 50px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+/* БЛОКИ НА ГЛАВНОЙ */
+
+.info-block {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.info-block h2 {
+    color: #552583;
+}
+
+/* КНОПКА К НАЧАЛУ */
+
+.to-top {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.to-top a {
+    background-color: #552583;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+/* ЛЕГЕНДЫ (КАРТОЧКИ) */
+
+.legend-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px #aaa;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.legend-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.legend-number {
+    font-size: 22px;
+    font-weight: bold;
+    color: #552583;
+    margin-top: 10px;
+}
+
+/* ФОРМЫ */
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-bottom: 15px;
+}
