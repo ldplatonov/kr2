@@ -1,4 +1,4 @@
-// подсветка текущей ссылки (добавляет bootstrap-класс 'active' к подходящей ссылке)
+
 document.addEventListener('DOMContentLoaded', function () {
   const path = location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.navbar .nav-link').forEach(a => {
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // генерация легенд (если есть элемент #grid)
+
   const grid = document.getElementById('grid');
   if (grid) {
     const legends = [
@@ -36,3 +36,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
