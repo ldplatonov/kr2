@@ -1,4 +1,4 @@
-/* ОБЩИЕ СТИЛИ */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -29,7 +29,7 @@ header {
     padding-top: 20px;
 }
 
-/* БЛОКИ НА ГЛАВНОЙ */
+
 
 .info-block {
     background: white;
@@ -43,7 +43,7 @@ header {
     color: #552583;
 }
 
-/* КНОПКА К НАЧАЛУ */
+
 
 .to-top {
     margin-top: 40px;
@@ -57,7 +57,7 @@ header {
     border-radius: 7px;
 }
 
-/* ЛЕГЕНДЫ (КАРТОЧКИ) */
+
 
 .legend-card {
     background: white;
@@ -80,7 +80,7 @@ header {
     margin-top: 10px;
 }
 
-/* ФОРМЫ */
+
 
 form {
     background: white;
@@ -97,3 +97,4 @@ label {
 input, select {
     margin-bottom: 15px;
 }
+
